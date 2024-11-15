@@ -1,0 +1,32 @@
+.childs:hover
+{
+    transform: scale(1) translateX(-10%);
+    margin: -10px;
+   width: 300px;
+}
+.childs:hover img 
+{
+    transform: translateX(-50%)  translateY(-80%) scale(1.1);
+
+}
+.childs p 
+{
+    transition: ease-in-out 0.3s;
+}
+.childs:hover p 
+{
+    width: 275px;
+}
+.childs:not(:hover)
+{
+  
+   width: 223px;
+   
+}
+nav li:hover
+{
+    
+    font-size: 55px;
+    filter: drop-shadow(1px 1px 50px rgba(255, 0, 191, 0.432));
+}
+/* Mobile Devices (phones) */

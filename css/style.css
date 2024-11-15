@@ -1,0 +1,504 @@
+nav li
+{
+    display: inline;
+    padding: 0px 40px;
+    font-size: 54px;
+    
+    transition: ease-in-out 0.3s;
+    
+}
+nav a 
+
+{
+    text-decoration: none;
+    font-family: Gloria Hallelujah ;
+    
+}
+nav ul 
+{
+    height: 100px;
+    position: absolute;
+    width: 700px;
+    left: 50%;
+    margin: 15px 40px;
+    border-radius: 50px;
+    transform: translateX(-50%);
+    background-color: #ffffff1f;
+    backdrop-filter: blur(10px);
+}
+logo
+{
+    padding-top: 15px;
+    padding-left: 300px;
+    position: absolute;
+    font-size: 54px;
+    
+    font-family: Gloria Hallelujah ;
+
+}
+.back img
+{
+    position:absolute;
+    width: 1920px;
+    height: 2670px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    z-index: -1;
+    
+}
+.back2 img
+{
+    position:absolute;
+    width: 1920px;
+    height: 2670px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    z-index: -1;
+    
+    
+}
+body
+{
+    width: 1920px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2670px;
+    
+
+    
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+#toggleDark 
+{
+    width: 100px;
+    padding: 60px;
+    position: absolute;
+    right: 50px;
+    transform: scale(4);
+}
+
+
+.home
+{
+    width: 1400px;
+    height: 2100px;
+    background-color: rgba(255, 255, 255, 0.178);
+    backdrop-filter: blur(10px);
+    margin: 200px 260px;
+    border-radius: 50px;
+     filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.13));
+}
+.Home h1
+{
+    font-family: Gloria Hallelujah ; 
+    font-size: 54px;
+    text-align: center;
+    padding-top: 100px;
+}
+.skills h1
+{
+    font-family: Gloria Hallelujah ; 
+    font-size: 54px;
+    text-align: center;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.055));
+   
+}
+.Home h2
+{
+    font-size: 204px;
+    position: absolute;
+    right: 100px;
+    top: -50px;
+    font-family: Gloria Hallelujah ; 
+    
+}
+.home p 
+{
+    font-family: Gloria Hallelujah ; 
+    width: 830px;
+    font-size: 20px;
+    padding: 0px 136px;
+}
+.panners
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin: 0px 200px;
+    
+    
+
+}
+
+.panners img 
+{
+    width:110px ;
+    height: 110px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%)  translateY(-80%);
+}
+.panners2
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin: 0px 200px;
+    
+    
+
+}
+.panners2 p 
+{
+   color: white; 
+}
+
+.panners2 img 
+{
+    width:110px ;
+    height: 110px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%)  translateY(-80%);
+}
+.childs img
+{
+
+    transition: ease-in-out 0.3s;
+}
+.childs
+{
+    padding: 0px;
+    margin: 20px;
+    width: 223px;
+    height: 260px; background-color: rgba(245, 245, 245, 0.219);
+    border-radius: 50px;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.048));
+    transition:all ease-in-out 0.3s ; 
+}
+.panners2 a
+{
+    text-decoration: none;
+}
+.childs p
+{
+    padding: 0px 0px;
+    margin: 70px 12px;
+    width: 200px;
+    height:60px;
+     background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 700;
+    
+    line-height: 2.75;
+    
+}
+
+#cs 
+{
+    height: 170px;
+
+    position: relative;
+    top: 150px;
+    width: 170px;
+    
+}
+#cp
+{
+    position: relative;
+    top: -60px;
+}
+#cEs
+{
+    background-color: #822c9844;
+    color: #822c98;
+  
+}
+#cpp
+{
+    background-color: #2C96D881;
+    color: #2c96d8;
+}
+#off
+{
+    background-color: #eb3b0081;
+    color: #ffffff;
+}
+#fig
+{
+    background-color: #00000044;
+    color: #000000;
+}
+#Java
+{
+    background-color: #E76F0044;
+    color: #E76F00;
+}
+#js
+{
+    background-color: #FADB1344;
+    color: #000000;
+}
+#htm
+{
+    background-color: #e03d146c;
+    color: #ffffff;
+}
+#css
+{
+    background-color: #0A9DD944;
+    color: #0A9DD9;
+}
+.skills
+{
+  
+    margin: 200px 0px;
+}
+p1
+{
+    position: relative;
+    left: 150px;
+    width: 150px;
+    top: -100px;
+}
+@media (max-width: 800px) {
+    body
+    {
+        width: 700px;
+        height: 3000px;
+        position: absolute;
+        left: 0px;
+        transform: translateX(-50%);
+    }
+    nav ul
+    {
+        font-size: 20px;
+        width: 600px;
+        left: 10%;
+        top: 50px;
+        position: absolute;
+        transform: translateX(50%);
+    }
+    nav a 
+    {
+        font-size: 40px;
+    }
+    logo 
+    {
+        font-size: 40px;
+        left: -100px;
+        top: 50px;
+        position: absolute;
+    }
+    #toggleDark 
+    {
+        transform: scale(4) translateX(0%);
+        position: absolute;
+        right: -710px;
+        top: 40px;
+    }
+    .home
+    {
+        width: 850px;
+        height: 2600px;
+    }
+    .panners
+    {
+        width: 800px;
+        position: relative;
+        
+    }
+    .panners2
+    {
+        position: relative;
+        left: 120px;
+    }
+    .childs
+    {
+       left: -150px;
+       position: relative;
+    }
+    .panners2
+    {
+        width: 700px;
+    }
+    .back img
+    {
+        height: 3000px;
+        position: absolute;
+    }
+    
+    .back2 img
+    {
+        height: 3000px;
+        position: absolute;
+    }
+    .Home h2
+    {
+        visibility: hidden;
+    }
+    .Home p 
+    {
+        width: 700px;
+        position: relative;
+        left: -40px;
+    }
+    .childs:hover
+{
+    transform: scale(1) translateX(-10%);
+    margin: -10px;
+   width: 200px;
+}
+.childs:hover img 
+{
+    transform: translateX(-50%)  translateY(-80%) scale(1);
+
+}
+.childs p 
+{
+    transition: ease-in-out 0.3s;
+}
+.childs:hover p 
+{
+    width: 205px;
+}
+.childs:not(:hover)
+{
+  
+   width: 200px;
+   
+}
+nav li:hover
+{
+    
+    font-size: 55px;
+    filter: drop-shadow(1px 1px 50px rgba(255, 0, 191, 0.432));
+}
+  }
+  
+  /* Tablet Devices */
+  @media (min-width: 802px) and (max-width: 1024px) {
+    /* ... tablet-specific styles */
+    body
+    {
+        width: 700px;
+        height: 3000px;
+        position: absolute;
+        left: 0px;
+        transform: translateX(-50%);
+    }
+    nav ul
+    {
+        font-size: 20px;
+        width: 600px;
+        left: 10%;
+        top: 50px;
+        position: absolute;
+        transform: translateX(50%);
+    }
+    nav a 
+    {
+        font-size: 40px;
+    }
+    logo 
+    {
+        font-size: 40px;
+        left: -100px;
+        top: 50px;
+        position: absolute;
+    }
+    #toggleDark 
+    {
+        transform: scale(4) translateX(0%);
+        position: absolute;
+        right: -710px;
+        top: 40px;
+    }
+    .home
+    {
+        width: 850px;
+        height: 2600px;
+    }
+    .panners
+    {
+        width: 800px;
+        position: relative;
+        
+    }
+    .panners2
+    {
+        position: relative;
+        left: 120px;
+    }
+    .childs
+    {
+       left: -150px;
+       position: relative;
+    }
+    .panners2
+    {
+        width: 700px;
+    }
+    .back img
+    {
+        height: 3000px;
+        position: absolute;
+    }
+    
+    .back2 img
+    {
+        height: 3000px;
+        position: absolute;
+    }
+    .Home h2
+    {
+        visibility: hidden;
+    }
+    .Home p 
+    {
+        width: 700px;
+        position: relative;
+        left: -40px;
+    }
+    .childs:hover
+{
+    transform: scale(1) translateX(-10%);
+    margin: -10px;
+   width: 200px;
+}
+.childs:hover img 
+{
+    transform: translateX(-50%)  translateY(-80%) scale(1);
+
+}
+.childs p 
+{
+    transition: ease-in-out 0.3s;
+}
+.childs:hover p 
+{
+    width: 205px;
+}
+.childs:not(:hover)
+{
+  
+   width: 200px;
+   
+}
+nav li:hover
+{
+    
+    font-size: 55px;
+    filter: drop-shadow(1px 1px 50px rgba(255, 0, 191, 0.432));
+}
+  }
+
+  
